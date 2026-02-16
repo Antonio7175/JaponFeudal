@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   version="1.0" width="160" height="160">
+  <metadata><rdf:RDF><cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work></rdf:RDF></metadata>
+  <rect width="160" height="160"/>
+  <circle cx="80" cy="80" r="70" style="stroke:#f9f9f9;stroke-width:14;fill:none"/>
+  <path style="fill:#f9f9f9"
+     d="M34.875,42H125.125C129.35679,47.019282 132.74439,52.758734 135.125,59H24.875C27.255614,52.758734 30.643214,47.019282 34.875,42zM 21.625,71.5H138.375C138.77729,74.279852 139,77.109273 139,80C139,82.890727 138.77729,85.720147 138.375,88.5H21.625C21.222715,85.720148 21,82.890727 21,80C21,77.109273 21.222714,74.279852 21.625,71.5zM 24.875,101H135.125C132.74439,107.24127 129.35679,112.98072 125.125,118H34.875C30.643214,112.98072 27.255614,107.24127 24.875,101z"/>
+</svg>

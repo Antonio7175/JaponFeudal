@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sengoku Provinces (sample)",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kai",
+        "clan": "Takeda",
+        "era": "Sengoku"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [138.40, 35.60],
+          [138.40, 35.85],
+          [138.75, 35.85],
+          [138.75, 35.60],
+          [138.40, 35.60]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Echigo",
+        "clan": "Uesugi",
+        "era": "Sengoku"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [138.80, 37.00],
+          [138.80, 37.50],
+          [139.40, 37.50],
+          [139.40, 37.00],
+          [138.80, 37.00]
+        ]]
+      }
+    }
+  ]
+}

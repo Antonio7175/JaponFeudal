@@ -1,0 +1,17 @@
+[
+  { "name": "Takeda Shingen", "clan": "Takeda", "era": "Sengoku", "role": "Daimyo", "bio": "Líder del clan Takeda, 'Tigre de Kai'.", "imageUrl": "/img/warriors/Takeda_Shingen.jpg" },
+  { "name": "Uesugi Kenshin", "clan": "Uesugi", "era": "Sengoku", "role": "Daimyo", "bio": "Rival de Shingen, 'Dragón de Echigo'.", "imageUrl": "/img/warriors/Uesugi_Kenshin_by_Kuniyoshi-e1420166289775.jpg" },
+  { "name": "Oda Nobunaga", "clan": "Oda", "era": "Sengoku", "role": "Daimyo", "bio": "Unificó gran parte de Japón.", "imageUrl": "/img/warriors/Odanobunaga.jpg" },
+  { "name": "Tokugawa Ieyasu", "clan": "Tokugawa", "era": "Sengoku", "role": "Daimyo", "bio": "Fundó el shogunato Tokugawa.", "imageUrl": "/img/warriors/Tokugawa_Ieyasu2.jpg" },
+  { "name": "Toyotomi Hideyoshi", "clan": "Oda", "era": "Sengoku", "role": "General", "bio": "Sucesor de Nobunaga, completó la unificación.", "imageUrl": "/img/warriors/Toyotomi_Hideyoshi_c1598_Kodai-ji_Temple.jpg" },
+  { "name": "Hojo Ujiyasu", "clan": "Hojo", "era": "Sengoku", "role": "Daimyo", "bio": "Señor del clan Hojo de Odawara.", "imageUrl": "/img/warriors/Ujiyasu_Hojo.jpg" },
+  { "name": "Mori Motonari", "clan": "Mori", "era": "Sengoku", "role": "Daimyo", "bio": "Estratega notable del oeste.", "imageUrl": "/img/warriors/Mori_Motonari.jpg" },
+  { "name": "Shimazu Yoshihiro", "clan": "Shimazu", "era": "Sengoku", "role": "General", "bio": "Famoso por Sekigahara.", "imageUrl": "/img/warriors/Shimazu_Yoshihiro.jpg" },
+  { "name": "Date Masamune", "clan": "Date", "era": "Sengoku", "role": "Daimyo", "bio": "El 'Dragón de un ojo'.", "imageUrl": "/img/warriors/Date_Masamune02.jpg" },
+  { "name": "Chosokabe Motochika", "clan": "Chosokabe", "era": "Sengoku", "role": "Daimyo", "bio": "Dominó Shikoku.", "imageUrl": "/img/warriors/Tyousokabe_Mototika.jpg" },
+  { "name": "Imagawa Yoshimoto", "clan": "Imagawa", "era": "Sengoku", "role": "Daimyo", "bio": "Derrotado en Okehazama.", "imageUrl": "/img/warriors/Imagawa-Yoshimoto-Ukiyo-e.jpg" },
+  { "name": "Asakura Yoshikage", "clan": "Asakura", "era": "Sengoku", "role": "Daimyo", "bio": "Aliado de Azai, derrotado por Nobunaga.", "imageUrl": "/img/warriors/Asakura_Yoshikage2.jpg" },
+  { "name": "Azai Nagamasa", "clan": "Azai", "era": "Sengoku", "role": "Daimyo", "bio": "Yerno de Nobunaga, cayó en Odani.", "imageUrl": "/img/warriors/Azai_Nagamasa3.jpg" },
+  { "name": "Saito Dosan", "clan": "Saito", "era": "Sengoku", "role": "Daimyo", "bio": "Señor de Mino.", "imageUrl": "/img/warriors/Saito_Dosan1.jpg" },
+  { "name": "Ii Naomasa", "clan": "Ii", "era": "Sengoku", "role": "General", "bio": "General rojo de Tokugawa.", "imageUrl": "/img/warriors/Ii_Naomasa.jpg" }
+]

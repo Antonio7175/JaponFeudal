@@ -1,0 +1,22 @@
+[
+  { "name": "Takeda", "provinceOrigin": "Kai", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Uesugi", "provinceOrigin": "Echigo", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Oda", "provinceOrigin": "Owari", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Tokugawa", "provinceOrigin": "Mikawa", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Hojo", "provinceOrigin": "Sagami", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Mori", "provinceOrigin": "Aki", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Shimazu", "provinceOrigin": "Satsuma", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Date", "provinceOrigin": "Mutsu", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Chosokabe", "provinceOrigin": "Tosa", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Amago", "provinceOrigin": "Izumo", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Imagawa", "provinceOrigin": "Suruga", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Asakura", "provinceOrigin": "Echizen", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Azai", "provinceOrigin": "Omi", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Saito", "provinceOrigin": "Mino", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Rokkaku", "provinceOrigin": "Omi", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Satake", "provinceOrigin": "Hitachi", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Hatakeyama", "provinceOrigin": "Kawachi", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Nanbu", "provinceOrigin": "Mutsu", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Hachisuka", "provinceOrigin": "Awa", "era": "Sengoku", "crestUrl": "" },
+  { "name": "Ii", "provinceOrigin": "Totomi", "era": "Sengoku", "crestUrl": "" }
+]

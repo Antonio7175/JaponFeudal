@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="688" height="688">
+<g id="t"><path id="s" d="m688-168-290,441a90,90 0 0,0-108,0l-290-441M347,67l-1,175a102,102 0 0,1 33
+6l60-164a277,277 0 0,0-92-17m-6,0a277,277 0 0,0-92,17l60,164a102,102 0 0,1 33-6 l-1-175"/>
+<use xlink:href="#s" transform="rotate(60 344,344)"/></g>
+<use xlink:href="#t" transform="rotate(120 344,344)"/>
+<use xlink:href="#t" transform="rotate(240 344,344)"/>
+</svg>

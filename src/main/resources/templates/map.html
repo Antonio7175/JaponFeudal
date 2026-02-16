@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mapa Japón Feudal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="icon" href="/img/icons/casco.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/game.css" />
+</head>
+<body class="game-bg">
+  <div th:replace="~{fragments/navbar :: navbar(active='map')}"></div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="panel sidebar col-md-3 game-surface">
+      
+
+      <h2>Capa Batallas</h2>
+      <div class="mb-2 form-check">
+        <input class="form-check-input" type="checkbox" id="showBattles" />
+        <label class="form-check-label" for="showBattles">Mostrar batallas</label>
+      </div>
+      <div class="mb-3">
+        <label for="filterClan" class="form-label">Filtrar por clan</label>
+        <select id="filterClan" class="form-select"><option value="">(Todos)</option></select>
+      </div>
+
+      <h2 style="margin-top:12px">Capa Clanes</h2>
+      <div class="mb-2 form-check">
+        <input class="form-check-input" type="checkbox" id="showAllClans" />
+        <label class="form-check-label" for="showAllClans">Mostrar todos los clanes</label>
+      </div>
+
+      <div id="loader" class="loader"><span>⌛</span><span>Cargando…</span></div>
+      <div id="emptyMsg" class="empty" style="display:none">No hay resultados con los filtros actuales.</div>
+      </aside>
+      <main class="panel col-md-9 game-surface">
+        <div id="map" class="game-surface" style="height:80vh"></div>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster-src.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/map.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+:root{
+  --bg:#f5f7fb; --surface:#f0f4fb; --panel:#ffffff; --border:#e6eaf2; --text:#0b1220; --muted:#4b5563;
+  --glass: rgba(2,6,23,0.03);
+  --primary:#2563eb; --primary-600:#1d4ed8; --accent:#10b981; --danger:#ef4444;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; background:linear-gradient(180deg,#f7fbff 0%, #eef6ff 60%); color:var(--text); font:15px/1.5 Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+a{color:var(--primary); text-decoration:none}
+a:hover{color:var(--primary-600); text-decoration:underline}
+nav{
+  position:sticky; top:0; z-index:50; background:var(--panel);
+  border-bottom:1px solid var(--border); padding:12px 18px; display:flex; gap:18px; align-items:center;
+}
+nav .brand{font-weight:600; margin-right:auto}
+nav .link{padding:6px 10px; border-radius:8px}
+nav .link.active{background:#eef2ff; color:#3730a3}
+
+.layout{
+  display:grid; grid-template-columns:360px 1fr; gap:18px;
+  padding:18px; height:calc(100vh - 64px);
+}
+.layout > main { display:flex; flex-direction:column; }
+.panel{
+  background:var(--panel); border:1px solid var(--border); border-radius:12px; overflow:auto; box-shadow: 0 6px 18px rgba(11,20,34,0.04);
+}
+.sidebar{padding:18px}
+.field{margin-bottom:14px}
+.field label{display:block; font-size:12px; color:var(--muted); margin-bottom:8px}
+input[type="text"],input[type="number"],select,button{
+  width:100%; padding:12px 14px; border:1px solid rgba(255,255,255,0.03); border-radius:12px; background:var(--glass); color:var(--text); box-shadow: inset 0 1px 0 rgba(255,255,255,0.02);
+}
+button{cursor:pointer; background:linear-gradient(90deg,var(--primary),var(--primary-600)); color:#071021; border:none; font-weight:600}
+button:hover{filter:brightness(1.05)}
+.btn-secondary{background:transparent; color:var(--primary); border:1px solid rgba(96,165,250,0.12)}
+hr{border:none; height:1px; background:var(--border); margin:18px 0}
+.panel main, main.panel{display:flex}
+#map{flex:1; height:auto; border-radius:12px; min-height:380px}
+.badge{display:inline-block; padding:4px 10px; border-radius:999px; font-size:12px; border:1px solid var(--border); background:#f8fafc; color:var(--muted)}
+.table{width:100%; border-collapse:separate; border-spacing:0; background:transparent; border:1px solid transparent; border-radius:10px; overflow:hidden}
+.table th,.table td{padding:12px 14px; border-bottom:1px solid rgba(255,255,255,0.03)}
+.table th{background:transparent; text-align:left; font-weight:700; color:var(--muted)}
+.table tr:last-child td{border-bottom:none}
+.empty{padding:18px; color:var(--muted)}
+.row{display:flex; gap:10px}
+.grid2{display:grid; grid-template-columns:1fr 1fr; gap:10px}
+.small{font-size:12px; color:var(--muted)}
+.loader{display:none; align-items:center; gap:8px; padding:8px; color:var(--muted)}
+.loader.show{display:flex}
+
+/* Thumbnails for tables */
+.thumb{border-radius:8px; vertical-align:middle; display:inline-block}
+.thumb-sm{height:28px}
+.thumb-md{height:40px}
+.thumb-lg{height:64px}
+
+/* Navbar icons */
+.brand-icon{width:28px; height:28px; margin-right:10px; vertical-align:-0.15em}
+.nav-icon{width:28px; height:28px; margin-right:0.8rem; vertical-align:-0.15em}
+.navbar .nav-link img.nav-icon{filter:invert(1) brightness(1.2)}
+
+/* Increase spacing between navbar items */
+.navbar .navbar-nav{display:flex; gap:1rem; align-items:center}
+.navbar .nav-link{padding:8px 14px}
+.navbar .nav-item{margin:0}
+/* Ensure brand helmet icon is visible on dark navbar */
+.navbar .navbar-brand img.brand-icon{filter:invert(1) brightness(1.2)}
+
+/* Modal preview */
+.img-modal{position:fixed; inset:0; background:linear-gradient(rgba(2,6,23,0.6), rgba(2,6,23,0.8)); display:flex; align-items:center; justify-content:center; z-index:2000; padding:20px}
+.img-modal__card{background:linear-gradient(180deg,#071021,#091427); border-radius:12px; padding:14px; max-width:95vw; max-height:95vh; box-shadow:0 12px 40px rgba(0,0,0,0.6); display:flex; flex-direction:column; gap:10px}
+.img-modal__img{max-width:90vw; max-height:70vh; width:auto; height:auto; align-self:center; border-radius:8px}
+.img-modal__caption{font-size:14px; color:var(--muted); text-align:center}
+.img-modal__Close{position:absolute; right:18px; top:18px; background:transparent; border:none; color:var(--text); font-size:20px; cursor:pointer}
+.img-modal__close{position:absolute; right:18px; top:18px; background:transparent; border:none; color:var(--text); font-size:20px; cursor:pointer}
+/* Game-specific styles moved to /css/game.css to avoid conflicts */

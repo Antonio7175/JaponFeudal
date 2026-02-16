@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Batallas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="icon" href="/img/icons/casco.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/game.css" />
+</head>
+<body class="game-bg">
+  <div th:replace="~{fragments/navbar :: navbar(active='battles')}"></div>
+
+  <div class="container">
+    <section class="panel py-3 game-surface">
+      <h1>Batallas</h1>
+      <div class="row g-2">
+        <div class="col-md-6"><input id="bClan" placeholder="Clan (ej: Takeda)" class="form-control" /></div>
+        <div class="col-md-6"><input id="bWarrior" placeholder="Guerrero (ej: Kenshin)" class="form-control" /></div>
+      </div>
+      <div class="row g-2 mt-2">
+        <div class="col-md-6"><input id="bFrom" type="number" placeholder="Desde año (1550)" class="form-control" /></div>
+        <div class="col-md-6"><input id="bTo" type="number" placeholder="Hasta año (1600)" class="form-control" /></div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-auto">
+          <button id="bApply" class="btn btn-primary">Aplicar</button>
+        </div>
+        <div class="col-auto">
+          <button id="bReset" class="btn btn-secondary" type="button">Reset</button>
+        </div>
+      </div>
+
+      <div id="bLoader" class="loader mt-3"><span>⌛</span><span>Cargando…</span></div>
+      <div class="table-responsive mt-3">
+        <table class="table table-striped table-hover game-list" id="battlesTable">
+          <thead><tr><th>Nombre</th><th>Fecha</th><th>Era</th><th>Clanes</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div id="bEmpty" class="empty" style="display:none">Sin resultados.</div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/battles.js"></script>
+</body>
+</html>

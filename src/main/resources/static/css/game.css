@@ -1,0 +1,73 @@
+/* Estilos específicos para el minijuego "Desafío Japón Feudal" */
+body.game-bg{
+  background: url('/img/fondo_japon.jpg') center/cover no-repeat fixed;
+  font-family: 'Georgia', serif;
+  color: #2b1d0e;
+}
+
+.game-card {
+  background: rgba(245, 222, 179, 0.92);
+  border: 3px solid #3a2a1a;
+  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+}
+
+h3, h5 { font-family: 'Times New Roman', serif; letter-spacing: 1px; }
+
+.btn-outline-primary { border-color: #5c1a1a; color: #5c1a1a; }
+.btn-outline-primary:hover { background-color: #5c1a1a; color: white; }
+
+.progress { height: 20px; background-color: #d8c3a5; }
+.progress-bar { background: linear-gradient(90deg, #7a0000, #b22222); transition: width 0.5s ease; }
+
+.fade-in { animation: fadeIn 0.6s ease-in-out; }
+@keyframes fadeIn { from {opacity:0; transform: translateY(10px);} to {opacity:1; transform: translateY(0);} }
+
+/* --- estilos reutilizables para aplicar la estética del minijuego --- */
+.game-list {
+  background: rgba(245, 222, 179, 0.92) !important;
+  border: 2px solid #3a2a1a !important;
+  box-shadow: 0 0 12px rgba(0,0,0,0.45) !important;
+  padding: 0.25rem !important;
+  border-radius: 6px !important;
+}
+
+.game-list thead { background: rgba(234, 200, 150, 0.8); }
+.game-list tbody tr td { background: transparent; }
+
+.game-surface{
+  background: rgba(245, 222, 179, 0.92) !important;
+  border: 2px solid #3a2a1a !important;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.45) !important;
+  border-radius: 10px !important;
+  padding: 12px !important;
+}
+
+/* Map tweaks: aplicar borde y radio visibles sobre el lienzo de Leaflet */
+.game-surface #map, #map.game-surface {
+  border-radius: 10px; overflow: hidden; border: 2px solid rgba(58,42,26,0.18);
+}
+
+/* Ajustes opcionales para sidebars y secciones aplicadas */
+.game-surface.sidebar{ padding: 12px; }
+.game-surface.section{ padding: 12px; }
+
+/* Resaltar botones de respuestas con el tema del juego */
+#answers .btn { 
+  background: rgba(255,255,255,0.9); 
+  border: 1px solid rgba(58,42,26,0.18);
+  font-size: 1.05rem; 
+  padding: .7rem 1rem; 
+  white-space: normal; 
+  text-align: left; 
+  display: block; 
+  width: 100%;
+  margin-bottom: 0.6rem;
+}
+#answers .btn:hover { background: rgba(255,255,255,1); color: #071021; border-color: rgba(58,42,26,0.25); box-shadow: 0 2px 6px rgba(7,16,33,0.06); }
+
+/* Botones de respuesta más visibles en pantallas pequeñas */
+@media (max-width: 576px){
+  #answers .btn { font-size: 1rem; padding: .65rem .9rem; }
+}
+
+

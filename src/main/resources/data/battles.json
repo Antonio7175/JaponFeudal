@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Batallas de Kawanakajima",
+    "era": "Sengoku",
+    "date": "1561-09-10",
+    "clans": ["Takeda", "Uesugi"],
+    "warriors": ["Takeda Shingen", "Uesugi Kenshin"],
+    "imageUrl": "/img/battles/Battle_of_Kawanakajima.jpg",
+    "geoJson": { "type": "Point", "coordinates": [138.4, 36.6] }
+  },
+  {
+    "name": "Okehazama",
+    "era": "Sengoku",
+    "date": "1560-06-12",
+    "clans": ["Oda", "Imagawa"],
+    "warriors": ["Oda Nobunaga", "Imagawa Yoshimoto"],
+    "imageUrl": "/img/battles/Bishū_Okehazama-gassen.jpg",
+    "geoJson": { "type": "Point", "coordinates": [136.9, 35.0] }
+  },
+  {
+    "name": "Nagashino",
+    "era": "Sengoku",
+    "date": "1575-06-28",
+    "clans": ["Oda", "Tokugawa", "Takeda"],
+    "warriors": ["Oda Nobunaga", "Tokugawa Ieyasu", "Takeda Katsuyori"],
+    "imageUrl": "/img/battles/Nagashino_battle.jpg",
+    "geoJson": { "type": "Point", "coordinates": [137.6, 34.8] }
+  },
+  {
+    "name": "Anegawa",
+    "era": "Sengoku",
+    "date": "1570-07-30",
+    "clans": ["Oda", "Tokugawa", "Azai", "Asakura"],
+    "warriors": ["Oda Nobunaga", "Tokugawa Ieyasu", "Azai Nagamasa", "Asakura Yoshikage"],
+    "imageUrl": "/img/battles/The-Battle-of-Anegawa.jpg",
+    "geoJson": { "type": "Point", "coordinates": [136.1, 35.3] }
+  },
+  {
+    "name": "Odawara (Sitio)",
+    "era": "Sengoku",
+    "date": "1590-07-01",
+    "clans": ["Hojo", "Toyotomi"],
+    "warriors": ["Toyotomi Hideyoshi", "Hojo Ujinao"],
+    "imageUrl": "/img/battles/siege-of-odawara1-.jpg",
+    "geoJson": { "type": "Point", "coordinates": [139.15, 35.26] }
+  },
+  {
+    "name": "Mikatagahara",
+    "era": "Sengoku",
+    "date": "1573-01-25",
+    "clans": ["Tokugawa", "Takeda"],
+    "warriors": ["Tokugawa Ieyasu", "Takeda Shingen"],
+    "imageUrl": "/img/battles/Battle_of_Mikatagahara.jpg",
+    "geoJson": { "type": "Point", "coordinates": [137.7, 34.8] }
+  },
+  {
+    "name": "Tedorigawa",
+    "era": "Sengoku",
+    "date": "1577-09-12",
+    "clans": ["Uesugi", "Oda"],
+    "warriors": ["Uesugi Kenshin", "Oda Nobunaga"],
+    "imageUrl": "/img/battles/Tedorigawa_battle.jpg",
+    "geoJson": { "type": "Point", "coordinates": [136.6, 36.6] }
+  },
+  {
+    "name": "Sekigahara",
+    "era": "Azuchi–Momoyama",
+    "date": "1600-10-21",
+    "clans": ["Tokugawa", "Ishida"],
+    "warriors": ["Tokugawa Ieyasu", "Ishida Mitsunari", "Shimazu Yoshihiro", "Ii Naomasa"],
+    "imageUrl": "/img/battles/Sekigaharascreen.jpg",
+    "geoJson": { "type": "Point", "coordinates": [136.47, 35.36] }
+  }
+]

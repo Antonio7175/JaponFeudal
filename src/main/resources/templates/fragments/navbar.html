@@ -1,0 +1,17 @@
+<nav th:fragment="navbar(active)" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top mb-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+      <img src="/img/icons/casco.svg" alt="Casco" class="brand-icon" />
+      Mapa Japón Feudal
+    </a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" th:classappend="${active=='map'} ? ' active'" href="/"><i class="bi bi-geo-alt-fill"></i> Mapa</a></li>
+        <li class="nav-item"><a class="nav-link" th:classappend="${active=='clans'} ? ' active'" href="/clans"><img src="/img/icons/clans.svg" alt="Clanes" class="nav-icon"/>Clanes</a></li>
+        <li class="nav-item"><a class="nav-link" th:classappend="${active=='warriors'} ? ' active'" href="/warriors"><img src="/img/icons/warriors.svg" alt="Guerreros" class="nav-icon"/>Guerreros</a></li>
+        <li class="nav-item"><a class="nav-link" th:classappend="${active=='battles'} ? ' active'" href="/battles"><img src="/img/icons/battles.svg" alt="Batallas" class="nav-icon"/>Batallas</a></li>
+        <li class="nav-item"><a class="nav-link" th:classappend="${active=='game'} ? ' active'" href="/game"><img src="/img/icons/game.svg" alt="Minijuego" class="nav-icon"/>Minijuego</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

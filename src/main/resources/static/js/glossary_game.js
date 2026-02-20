@@ -207,13 +207,13 @@ function correctAnswer(btn){
   score += 1 + Math.floor(combo/3);
   btn.className="btn btn-success";
   updateUI();
-  setTimeout(nextQuestion,1200);
+  setTimeout(nextQuestion,20000);
 }
 
 function wrongAnswer(btn){
   combo=0;
   if(btn) btn.className="btn btn-danger";
-  setTimeout(nextQuestion,1200);
+  setTimeout(nextQuestion,20000);
 }
 
 function finishGame(){

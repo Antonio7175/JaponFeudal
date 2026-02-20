@@ -61,6 +61,9 @@ hr{border:none; height:1px; background:var(--border); margin:18px 0}
 .nav-icon{width:28px; height:28px; margin-right:0.8rem; vertical-align:-0.15em}
 .navbar .nav-link img.nav-icon{filter:invert(1) brightness(1.2)}
 
+/* Audio toggle small style on navbar */
+#audioToggle{ width:36px; height:32px; padding:4px 6px; font-size:14px; display:inline-flex; align-items:center; justify-content:center }
+
 /* Increase spacing between navbar items */
 .navbar .navbar-nav{display:flex; gap:1rem; align-items:center}
 .navbar .nav-link{padding:8px 14px}

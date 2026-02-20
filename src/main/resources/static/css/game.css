@@ -11,6 +11,9 @@ body.game-bg{
   box-shadow: 0 0 25px rgba(0,0,0,0.6);
 }
 
+/* Force game card above background/overlays if any (debug aid) */
+.card.game-card { position: relative; z-index: 1000; }
+
 h3, h5 { font-family: 'Times New Roman', serif; letter-spacing: 1px; }
 
 .btn-outline-primary { border-color: #5c1a1a; color: #5c1a1a; }
